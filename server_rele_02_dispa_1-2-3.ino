@@ -7,8 +7,8 @@
 // el programa funciona per relés en filera el HIGH és tancat
 //i el LOW és obert
 
-const char* ssid = "MOVISTAR_F7EF";
-const char* password = "9EF1BF58B87A61B433ED";
+const char* ssid = "********";
+const char* password = "**************";
 unsigned char status_led=0;
 WiFiServer server(80);
 
