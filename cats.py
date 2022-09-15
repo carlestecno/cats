@@ -28,7 +28,7 @@ class Cam:
 def connect(img, value):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
-        s.connect(("192.168.1.40", 80))
+        s.connect(("**************", 80))
     except:
         print("No connected reg automtic")
     if value == 0:
