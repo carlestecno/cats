@@ -80,8 +80,8 @@ def xarxa(img, thres, value):
                     break
 
 
-set2 =' tcpclientsrc host=192.168.1.46 port=8554 ! gdpdepay ! rtph264depay ! h264parse ! nvv4l2decoder  ! nvvidconv flip-method='+str(0)+' ! video/x-raw,format=BGRx ! videoconvert ! video/x-raw, width='+str(1080)+', height='+str(720)+',format=BGR ! appsink  drop=true sync=false '
-set3 =' tcpclientsrc host=192.168.1.48 port=8554 ! gdpdepay ! rtph264depay ! h264parse ! nvv4l2decoder  ! nvvidconv flip-method='+str(0)+' ! video/x-raw,format=BGRx ! videoconvert ! video/x-raw, width='+str(1080)+', height='+str(720)+',format=BGR ! appsink  drop=true sync=false '
+set2 =' tcpclientsrc host=192.***** port=8554 ! gdpdepay ! rtph264depay ! h264parse ! nvv4l2decoder  ! nvvidconv flip-method='+str(0)+' ! video/x-raw,format=BGRx ! videoconvert ! video/x-raw, width='+str(1080)+', height='+str(720)+',format=BGR ! appsink  drop=true sync=false '
+set3 =' tcpclientsrc host=192.***** port=8554 ! gdpdepay ! rtph264depay ! h264parse ! nvv4l2decoder  ! nvvidconv flip-method='+str(0)+' ! video/x-raw,format=BGRx ! videoconvert ! video/x-raw, width='+str(1080)+', height='+str(720)+',format=BGR ! appsink  drop=true sync=false '
 cap = cv2.VideoCapture(set2)
 cap3 = cv2.VideoCapture(set3)
 
